@@ -4,6 +4,14 @@
     "type": "number",
     "name": "day",
     "placeholder": "DD",
+    "validations": {
+      "min": { "value": 1, "message": "Enter a positive number" },
+      "max": { "value": 31, "message": "The day is out of range" },
+      "pattern": {
+        "value": "^[0-9]{1,2}$",
+        "message": "Please enter a valid day"
+      }
+    },
     "required": true
   },
   {
@@ -11,6 +19,14 @@
     "type": "number",
     "name": "month",
     "placeholder": "MM",
+    "validations": {
+      "min": { "value": 1, "message": "The month is out of range" },
+      "max": { "value": 12, "message": "The month is out of range" },
+      "pattern": {
+        "value": "^[0-9]{1,2}$",
+        "message": "Please enter a valid month"
+      }
+    },
     "required": true
   },
   {
@@ -18,6 +34,12 @@
     "type": "number",
     "name": "year",
     "placeholder": "YYYY",
+    "validations": {
+      "pattern": {
+        "value": "^[0-9]{4}$",
+        "message": "Please enter a valid year"
+      }
+    },
     "required": true
   }
 ]
