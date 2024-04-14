@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Day",
+    "type": "number",
+    "name": "day",
+    "placeholder": "DD",
+    "required": true
+  },
+  {
+    "label": "Month",
+    "type": "number",
+    "name": "month",
+    "placeholder": "MM",
+    "required": true
+  },
+  {
+    "label": "Year",
+    "type": "number",
+    "name": "year",
+    "placeholder": "YYYY",
+    "required": true
+  }
+]

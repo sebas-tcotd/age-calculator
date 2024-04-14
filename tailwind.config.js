@@ -46,14 +46,19 @@ export default {
         "sans-serif",
       ],
     },
-  },
-  extend: {
     letterSpacing: {
-      1: "1%",
-      2: "2%",
-      25: "25%",
+      1: "0.01rem",
+      2: "0.02rem",
+      25: "0.25rem",
+    },
+    borderRadius: {
+      DEFAULT: "0.5rem",
+      lg: "1.25rem",
+      xl: "6.25rem",
+      full: "100%",
     },
   },
+  extend: {},
 
   plugins: [],
 };
