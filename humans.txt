@@ -1,0 +1,11 @@
+/* TEAM */
+  Developer: Sebastian Vargas
+  Twitter: @sebas_tcotd
+  Location: Lima, Peru
+
+/* SITE */
+  Standards: HTML5, CSS3, Mobile-first design
+  Language: English
+  Components: React
+  Doctype: HTML5
+  IDE: Visual Studio Code, Figma
