@@ -20,7 +20,7 @@ export const AgeDisplay = ({ ageData }: AgeDisplayProps) => {
 
 const AgeItem = ({ value, label }: { value: string; label: string }) => {
   return (
-    <p className="text-lg font-extra-bold italic leading-none">
+    <p className="text-lg lg:text-xl font-extra-bold italic leading-none">
       <span className="text-primary-purple">{value ?? "--"}</span>
       {value !== "--" ? " ".concat(label) : `${label}`}
     </p>

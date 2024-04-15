@@ -1,8 +1,7 @@
 import { useForm } from "react-hook-form";
 import { FormInput } from "./types";
 import { useEffect } from "react";
-import { isValidDate } from "../../utils";
-import { isDateInFuture } from "../../utils/isDateInFuture";
+import { isDateInFuture, isValidDate } from "../../utils";
 
 export const useDateForm = () => {
   const {

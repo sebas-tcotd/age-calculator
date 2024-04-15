@@ -25,7 +25,7 @@ export const FormField = ({
     <div className="flex-1">
       <label
         htmlFor={formId}
-        className={`text-xs uppercase tracking-25 font-bold ${
+        className={`text-xs lg:text-sm lg:mb-2 uppercase tracking-25 font-bold ${
           errors.root || errors[name]
             ? "text-primary-light-red"
             : "text-neutral-smoke-grey"
@@ -65,7 +65,7 @@ export const FormField = ({
         max={validations?.max?.value as number}
         type="number"
         placeholder={placeholder}
-        className={`w-full | rounded | border  | px-4 py-3 | font-bold tracking-1 | ${
+        className={`w-full | rounded | border | lg:text-base-lg | px-4 py-3 | font-bold tracking-1 | ${
           errors[name]
             ? "focus:outline-primary-light-red"
             : "focus:outline-primary-purple"
