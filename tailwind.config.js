@@ -55,6 +55,7 @@ export default {
       DEFAULT: "0.5rem",
       lg: "1.25rem",
       xl: "6.25rem",
+      "2xl": "12.5rem",
       full: "100%",
     },
   },

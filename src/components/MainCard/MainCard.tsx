@@ -25,7 +25,7 @@ export const MainCard = () => {
   };
 
   return (
-    <main className="bg-neutral-white px-6 lg:px-14 py-12 | flex flex-col gap-8 | rounded-lg rounded-br-xl">
+    <main className="bg-neutral-white px-6 lg:px-14 py-12 | flex flex-col gap-8 | rounded-lg rounded-br-xl lg:rounded-br-2xl">
       <DateForm onSubmit={handleAge} />
       <AgeDisplay ageData={age} />
     </main>
