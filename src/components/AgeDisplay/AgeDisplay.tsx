@@ -11,9 +11,12 @@ export const AgeDisplay = ({ ageData }: AgeDisplayProps) => {
       role="group"
       aria-label="Age Information"
     >
-      {Object.keys(ageData).map((key) => (
-        <AgeItem key={key} value={ageData[key as keyof Age]} label={key} />
-      ))}
+      {Object.keys(ageData)
+        .slice()
+        .reverse()
+        .map((key) => (
+          <AgeItem key={key} value={ageData[key as keyof Age]} label={key} />
+        ))}
     </div>
   );
 };

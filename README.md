@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution Submit](https://www.frontendmentor.io/solutions/age-calculator-app-using-react-hook-form-and-tailwindcss-B4420TQxq2)
+- Live Site URL: [Age Calculator App](https://tcotd-age-calculator.netlify.app/)
 
 ## My process
 
@@ -71,11 +71,3 @@ I found it challenging, in part, to handle the form state, more so because of ha
 - Website - [My GitHub](https://github.com/sebas-tcotd)
 - Frontend Mentor - [@sebas-tcotd](https://www.frontendmentor.io/profile/sebas-tcotd)
 - Twitter - [@sebas_tcotd](https://twitter.com/sebas_tcotd)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
