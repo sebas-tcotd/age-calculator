@@ -13,6 +13,7 @@ export const DateForm = ({ onSubmit }: DateFormProps) => {
 
   return (
     <form
+      id="date-form"
       onSubmit={handleSubmit(onSubmit)}
       className="flex flex-col gap-8 lg:gap-4"
       aria-label="Date Form"

@@ -6,25 +6,25 @@ type AgeDisplayProps = {
 
 export const AgeDisplay = ({ ageData }: AgeDisplayProps) => {
   return (
-    <div
-      className="flex flex-col gap-[-1rem]"
-      role="group"
-      aria-label="Age Information"
-    >
-      {Object.keys(ageData)
-        .slice()
-        .reverse()
-        .map((key) => (
-          <AgeItem key={key} value={ageData[key as keyof Age]} label={key} />
-        ))}
-    </div>
+    <output form="date-form" className="flex flex-col" role="group" aria-label="Age Information">
+      <time dateTime={`${ageData.years}-${ageData.months}-${ageData.days}`}>
+        {Object.keys(ageData)
+          .slice()
+          .reverse()
+          .map((key) => (
+            <AgeItem key={key} value={ageData[key as keyof Age]} label={key} />
+          ))}
+      </time>
+    </output>
   );
 };
 
 const AgeItem = ({ value, label }: { value: string; label: string }) => {
   return (
     <p className="text-lg lg:text-xl font-extra-bold italic leading-none">
-      <span className="text-primary-purple">{value ?? "--"}</span>
+      <data value={value} className="text-primary-purple">
+        {value ?? "--"}
+      </data>
       {value !== "--" ? " ".concat(label) : `${label}`}
     </p>
   );
